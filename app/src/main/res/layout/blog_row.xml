@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:layout_margin="3dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:id="@+id/post_image"
+            android:background="@color/cast_expanded_controller_ad_container_white_stripe_color"
+            android:adjustViewBounds="true"
+            tools:ignore="ContentDescription" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/first_name"
+            android:text="First Name"
+            android:padding="2dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/post_image"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/second_name"
+            android:text="Middle Name"
+            android:layout_below="@+id/first_name"
+            android:padding="2dp"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/surname"
+                android:text="surname"
+                android:layout_below="@+id/post_desc"
+                android:padding="2dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gender"
+                    android:text="gender"
+                    android:layout_below="@+id/post_desc"
+                    android:padding="2dp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/id"
+                    android:text="id"
+                    android:layout_below="@+id/post_desc"
+                    android:padding="2dp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/amount"
+                    android:text="amount"
+                    android:layout_below="@+id/post_desc"
+                    android:padding="2dp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/monthly"
+                    android:text="monthly"
+                    android:layout_below="@+id/post_desc"
+                    android:padding="2dp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/county"
+                    android:text="county"
+                    android:layout_below="@+id/post_desc"
+                    android:padding="2dp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:text="Bank Details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bank"
+                    android:text="bank"
+                    android:layout_below="@+id/post_desc"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/account_number"
+                    android:text="Account"
+                    android:layout_below="@+id/post_desc"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:text="M-pesa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/phone"
+                    android:text="phone number"
+                    android:layout_below="@+id/post_desc"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:text="Dependent 1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/relationship1"
+                android:text="relationship"
+                android:layout_below="@+id/post_desc"
+                android:padding="5dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name1"
+                android:text="name"
+                android:layout_below="@+id/post_desc"
+                android:padding="5dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/phone1"
+                android:text="phone "
+                android:layout_below="@+id/post_desc"
+                android:padding="5dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:text="Dependent 2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/relationship2"
+                android:text="relationship"
+                android:layout_below="@+id/post_desc"
+                android:padding="5dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name2"
+                android:text="name"
+                android:layout_below="@+id/post_desc"
+                android:padding="5dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/phone2"
+                android:text="phone "
+                android:layout_below="@+id/post_desc"
+                android:padding="5dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

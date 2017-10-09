@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "514182544366",
+    "firebase_url": "https://alex-ebbc9.firebaseio.com",
+    "project_id": "alex-ebbc9",
+    "storage_bucket": "alex-ebbc9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514182544366:android:d226728c074db70f",
+        "android_client_info": {
+          "package_name": "com.example.user.pensionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514182544366-c7clvsm9gg4k32a5uloiuu2pq8t5r0mj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.pensionapp",
+            "certificate_hash": "2b86e205511efba7196a0a09adc4983a1b39752d"
+          }
+        },
+        {
+          "client_id": "514182544366-koomrap3l6eq14k4lsbcu74aq0j25vn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwXAedufCK0HHosfNblknqw6IH_9a9BvY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514182544366-koomrap3l6eq14k4lsbcu74aq0j25vn6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
